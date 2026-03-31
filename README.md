@@ -38,3 +38,21 @@ To run the project using your local webcam, use the `-w` flag. Press 'q' in the 
 **Option 2: Automated File Processing (For Evaluators/Headless Servers)**
 If running in an automated environment without a webcam, pass an input video and define an output path.
 `python gesture.py -i input/sample_hand.mp4 -o output/tracked_hand.mp4`
+
+```
+project_structure/
+│
+├── input/                  # Directory for source images/videos
+├── output/                 # Directory for processed media
+├── gesture.py              # Main application script
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
+```
+Technologies Used
+Python: Core programming language.
+
+OpenCV (cv2): Image processing, drawing annotations, and file I/O.
+
+MediaPipe: Machine learning pipeline for hand landmark detection.
+
+Argparse & Logging: For robust CLI execution and professional stdout tracking.
