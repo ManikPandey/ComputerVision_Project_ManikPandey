@@ -23,8 +23,7 @@ The project is engineered with strict headless-server compatibility, ensuring it
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR-USERNAME/gesture-tracker.git
-cd 
+git clone https://github.com/ManikPandey/ComputerVision_Project_ManikPandey
 ```
 
 ## Execution Instructions
